@@ -1,0 +1,12 @@
+n = io.read()
+s = io.read()
+ok = -1
+for i=1,n-2 do
+  a = string.sub(s,i,i+2);
+  if a == "ABC"
+  then
+    ok = i
+    break
+  end
+end
+print(ok);
